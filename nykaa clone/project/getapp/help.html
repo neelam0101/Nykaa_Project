@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <script src="https://kit.fontawesome.com/e3ddd9c631.js" crossorigin="anonymous"></script>
+    <style>
+        
+          * {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+          #head{
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 75px 138px 1000px ;
+            grid-template-areas:  
+            "a"
+            "b"
+            "c";
+        }
+           
+        .a1{
+            background-color: rgb(255,255,255);
+            grid-area:a ;
+            display: flex;
+            justify-content: space-around;
+            
+           
+          
+        }
+        .a2{
+            background-color: rgb(252,39,121);
+            grid-area: b;
+            text-align: center;
+           
+        }
+        .a3{
+            background-color:rgb(255,255,255);
+            grid-area: c;
+            width: 70%;
+            margin-left: 200px;
+            margin-right: 200px;
+           
+        }
+        .a1div1{
+            color: rgb(252,39,121);
+            margin-top: 2%;
+        }
+        .a1div1:hover{
+            color: rgb(30, 7, 133);
+        }
+        #img1{
+            width: 50%;
+            margin-top:2% ;
+        }
+        #in1{
+            border:0.5px solid rgb(175, 169, 169);
+            width: 350px; 
+            height:35px;
+            margin-top: 3.5%;
+            border-radius: 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #submit1{
+            border:0.5px solid rgb(220,9,87);
+            width: 80px;
+            height:38px;
+            font-size: 90%;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(220,9,87);
+            margin-left: -.5%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        
+        .hr1{
+         border: 1.2px solid  rgb(252,39,121);
+         background-color:rgb(252,39,121) ;
+        }
+        #a3div1{
+            color: rgb(43, 40, 40);
+            font-size: 170%;
+            margin-top: 4%;
+        }
+        #a3div2{
+            display: flex;
+            justify-content:space-between;
+            margin-top: 6%;
+            margin-bottom: 3%;
+           
+        }
+        #write{
+            margin-left: 43%;
+            margin-right: 43%;
+            margin-bottom: 5%;
+        }
+        #a3div2>div,#write{
+            width: 15%;
+            height: 100px;
+        }
+        #a3div2>div:hover ,#write:hover{
+           background-color:rgb(252,210,221) ;
+         
+        }
+        #a3div2>div>i,#write>i{
+           font-size: 280%;
+        }
+        #a3div2>div>p,#write>p{
+          color: rgb(252,39,121) ;
+        
+        }
+
+        .e1{
+            margin-top:4%;
+            margin-bottom: 1.5%;
+            font-size:90% ;
+            color: rgb(65, 62, 62);
+        }
+        .e2{
+            margin-bottom: 4%;
+            font-size:90% ;
+            color: rgb(65, 62, 62);
+        }
+        #a3div4{
+            display: flex;
+            justify-content: space-between;
+           
+           
+        }
+        #a3div4>div{
+            width: 22%;
+            
+        }
+        #a3div4>div>p{
+            text-align: left;
+        }
+        .heading{
+            font-size: 170%;
+            font-weight: 500;
+            color: rgb(37,45,54);
+        }
+        .heading~p{
+            font-size:90% ;
+            color: rgb(152,152,152);
+            margin-top: -6px;
+        }
+        #a3div5{
+            display: flex;
+           justify-content: space-between;
+           margin-top: 40px;
+        }
+       
+        #a3div5>div>i{
+            color: rgb(252,39,121);
+            font-size: 150%;
+           
+       }
+       #a3div5>div>i:hover{
+           color: blue;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <div id="head">
+        
+        <div class="a1">
+           <div><img id="img1" src="https://seeklogo.com/images/N/nykaa-logo-AA06314FB9-seeklogo.com.png"> </div>
+            <div class="a1div1">Back to help-center</div>
+        </div>
+
+        <div class="a2">
+            <form>
+                <input type="text" placeholder="Search FAQ's" id="in1">
+                <input type="Submit" value="Submit" id="submit1">
+            </form>
+        </div>
+        <div class="a3">
+            
+             <div id="a3div1">Help Categories</div>
+             <div id="a3div2">
+                <div onclick="Giveorder()">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Order Related</p>
+                </div>
+                 <div onclick="shoppingonNylaa()">
+                    <i class="fas fa-truck"></i>
+                     <p>Shopping</p>
+                 </div>
+                 <div onclick="Nykaaaccount()">
+                    <i class="fas fa-user"></i>
+                     <p>Nykaa Account</p>
+                 </div>
+                 <div onclick="paymentsection()">
+                    <i class="fas fa-credit-card"></i>
+                     <p>Payments</p>
+                 </div>
+                 <div onclick="othersThings()">
+                    <i class="fas fa-info-circle"></i>
+                     <p>Others</p>
+                 </div>
+                 <div onclick="sellonNykaa()">
+                    <i class="fas fa-gift"></i>
+                     <p>Sell On Nykaa</p>
+                 </div>
+             </div>
+             <div id="write" onclick="writeTous()">
+                <i class="far fa-life-ring"></i>
+                 <p>Write to us</p>
+             </div>
+             <hr class="hr1">
+             <div class="e1">Email: support@nykaa.com</div>
+             <div  class="e2">Email for international orders: internationalsupport@nykaa.com</div>
+             <hr class="hr1">
+             <div id="a3div4">
+                 <div>
+                     <p class="heading">Nykaa</p>
+                     <p>Who Are We?</p>            
+                     <p>Stores & Events</p>
+                     <p> Careers</p>
+                     <p> Authenticity</p>
+                     <p>  Press</p>
+                     <p>Testimonials</p>
+                     <p> New Launches</p>
+                 </div>
+
+                 <div>
+                     <p class="heading">Beauty Advice</p>
+                     <p>Beauty Book</p>
+                     <p>Trending Looks</p>
+                     <p>Experts Online</p>
+                     <p>Style Divas</p>
+                 </div>
+                
+                 <div>
+                     <p class="heading">Quick Links</p>
+                     <p>Beauty Store</p>
+                     <p> Brand Stores</p>
+                     <p> Offer Zone</p>
+                     <p>Nykaa Femina Beauty Awards Winners 2018</p>
+                     <p>Nykaa Prive</p> 
+                 </div>
+               
+                 <div>
+                     <p class="heading">Top Categories</p>
+                     <p> Makeup</p>
+                     <p>Skin</p>
+                     <p> Hair</p>
+                     <p> Personal Care</p>
+                     <p> Herbal</p>
+                     <p> Mom and Baby</p>
+                     <p> Wellness</p>
+                     <p> Fragrance</p>
+                     <p>Gifts</p>
+                     <p>Luxe</p>
+                 </div>
+             </div>
+             <hr class="hr1">
+             <div id="a3div5">
+             <div>Copyright © <span style="color:rgb(252,39,121) ;">Nykaa</span> 2020. All Rights Reserved.</div>
+             <div>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-instagram"></i>
+             </div>
+            </div>
+        </div>
+       
+       
+    </div>
+
+</body>
+</html>
+<script>
+   function Giveorder(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=1341"
+   }
+   function shoppingonNylaa(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=1410"
+   }
+   function Nykaaaccount(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=1411"
+   }
+   function paymentsection(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=1412"
+   }
+   function othersThings(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=1413"
+   }
+   function sellonNykaa(){
+       window.location.href="https://support.nykaa.com/view/category-detail.php?cat_id=2214"
+   }
+   function writeTous(){
+       window.location.href="https://support.nykaa.com/submit-request.php"
+   }
+</script>

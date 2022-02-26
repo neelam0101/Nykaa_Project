@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        body{
+            background-color: rgb(99, 121, 143);
+        }
+        div{
+            width:30%;
+            height:500px;
+            margin-left:35%;
+            margin-top:5%;
+            border: 1px solid white;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            background-color: rgb(225, 228, 220);
+        }
+        h1,input{
+            text-align: center;
+        }
+        input{
+            margin-left:30%;
+        }
+       #button{
+            margin-left:40%;
+            background-color: rgb(61, 236, 90);
+        }
+        #span{
+            border: 1px solid black;
+            padding: .1%;
+            background-color: rgb(224, 214, 212);
+        }
+        img{
+            height: 300px;
+            margin-left: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>PLEASE ENTER THE OTP</h1>
+        <form>
+        <input id="otpin" type="text" placeholder=" enter otp 12345">
+        <span id="span" onclick="resend()">Resend OTP</span>
+        <hr>
+        <input id="button" type="submit" value="proceed"> 
+        <hr>
+        <img src="https://blog.malwarebytes.com/wp-content/uploads/2018/09/resize_featured_SMS-scamming-targets-the-job-market-611x506.jpg">
+    </form>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit" , proceed);
+    function proceed(eve)
+    {
+        eve.preventDefault();
+        var otp=document.querySelector("#otpin").value;
+        if(otp==12345)
+        {
+            alert("Transaction Successful")
+           window.location.href="home.html"
+        }
+        else{
+            alert("Wrong OTP")
+        }
+    }
+    function resend()
+    {
+        alert("OTP has sent to your registered mobile no.")
+    }
+</script>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+      body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        }
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        #box{
+            width: 80%;
+           
+        }
+        #main{
+            text-align: center;
+            padding: .5%;
+            background-color:  #eaeee0;
+            height: 30px;
+           font-size: large;
+           box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        }
+        #total{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(247, 151, 151);
+        }
+        #amount{
+         display: flex;
+        justify-content:space-around; 
+        margin: .5%;
+        width: 30%;
+        }
+        #grand{
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+            font-size: 130%;
+            font-weight: 500;
+            color: rgb(109, 105, 105);
+            background-color: rgb(240, 245, 235);
+           
+        }
+        #display
+        {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            font-size: 110%;
+            font-weight: 500;
+          
+        }
+        #shopnow{
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            font-size: 120%;
+            font-weight: 500;
+           background-color: rgb(36, 231, 52);
+            padding: .5%;
+            
+        }
+
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 2%;
+            width: 100%;
+            margin-top: 3%;
+           
+           
+            
+        }
+        #container>div{
+           
+            width: 100%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+    
+        #flex{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(180, 178, 178);
+            height: 15%;
+           
+        }
+        #flex>p:nth-child(2){
+            text-decoration: line-through;
+        }
+        #name{
+         text-align: center;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 500;
+          font-size: 85%;
+          color: rgb(114, 108, 108);
+          padding: 1%;
+      
+         
+        }
+        #dlt{
+          width: 100%;
+          padding: 1%;
+          font-size:100% ;
+          background-color: rgb(228, 64, 64);
+          box-shadow: rgba(233, 66, 66, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+      
+
+</style>
+</head>
+<body>
+
+ <div id="box">
+     <div id="main">Bag Items</div>
+     <div id="total"> 
+         <div id="amount">
+        <div id="grand">Grand Total </div>
+        <div id="display"></div>
+         </div>
+         <div id="shopnow" onclick="shopnow()">Proceed Now >></div>
+    </div>
+    
+    <div id="container"></div>
+</div>
+  
+ 
+
+
+<script>
+
+var cartARR=JSON.parse(localStorage.getItem("cartARR"))||[];
+ createTable(cartARR);
+ 
+function createTable(cartARR) {
+     document.querySelector("#display").textContent=`Total Cart Amount is ₹ ${0}`;
+    document.querySelector("#container").innerHTML = "";
+
+    cartARR.map(function(data,index){
+        var div= document.createElement("div");
+       
+        var image=document.createElement("img");
+        image.setAttribute("src",data.imageUrl);
+        
+        var name1=document.createElement("p");
+        name1.textContent=data.productname;
+        name1.setAttribute("id","name");
+
+       
+        var div1=document.createElement("div");
+        div1.setAttribute("id","flex");
+
+        var p1=document.createElement("p");
+        p1.textContent=data.prodPrice;
+
+        var p2=document.createElement("p");
+        p2.textContent=data.strikedP;
+        div1.append(p1,p2);
+        // ************************
+      var dlt = document.createElement("button");
+      dlt.textContent = "Delete";
+      dlt.setAttribute("id","dlt")
+      dlt.addEventListener("click" ,function(){
+      deletetask(index)
+     
+      });
+
+      
+        div.append(image,name1,div1,dlt);
+        document.querySelector("#container").append(div);
+        var total=cartARR.reduce(function(acc,cv){
+         
+       return Number(acc)+ Number(cv.prodPrice);
+      
+      
+    },0);
+
+    document.querySelector("#display").textContent=`Total Cart Amount is ₹ ${total}`;
+  
+
+    });
+  }
+   
+    
+    // *****************
+  function  deletetask(index){
+   cartARR.splice(index,1)
+   localStorage.setItem("cartARR", JSON.stringify(cartARR));
+   createTable(cartARR);
+  
+ }
+ 
+
+ function shopnow(){
+   window.location.href="payments.html";
+ }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,483 @@
+
+ 
+ 
+ #nav{
+
+    box-sizing: border-box;
+    background-color:white ;
+    border-bottom: 1px solid #d3cfcf;
+    
+   
+    }
+     #top{ 
+        background-image: url("https://adn-static1.nykaa.com/media/wysiwyg/2021/topstrips17.jpg"); 
+    width: 100%;
+       
+    }
+    
+   .beauty {
+        justify-content: center;
+        padding-left: 10px;
+      
+        
+    }
+  
+    
+   #getapp {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5px;
+        padding-bottom: 10px;
+    }
+    #getapp > a {
+        font-size: 16px;
+        margin-right: 80px;
+        color: black;
+    
+    }
+    
+    #getapp > a:hover {
+        color: rgb(255, 0, 200);
+        cursor: pointer;
+       }
+    #getapp  a {
+       width: 8%;
+       margin-top: 2px;
+       margin-right: 3px;
+       justify-content: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        }
+        body{
+        background-color: #f7f7f7;
+        
+        }
+        ul li{
+        list-style: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #3c3c3c;
+        }
+        a{
+        text-decoration: none;
+        }
+         h1{
+        font-family: 'Roboto', sans-serif;
+        }
+        h2{
+        font-family: 'Roboto', sans-serif;
+        }
+        p{
+        font-family: 'Roboto', sans-serif;
+            color: #3c3c3c;
+        }
+        .clearDiv{
+        clear: both;
+        }
+        #navbar{
+        box-sizing: border-box;
+        height: 70px;
+        background-color:white ;
+        border-bottom: 1px solid #d3cfcf;
+        }
+        #navbar .container{
+        width: 95%;
+        padding-left: 3%;
+        margin: auto;
+        display: flex;
+        
+        }
+        .logo img{
+        padding-top: 10px;
+        width: 100px;
+        height: 40px;
+        }
+        form{
+         margin: 20px 10px 30px 28px;
+        }
+        #search{
+            border: 1px solid #a0a0a0;
+            border-radius: 3px;
+            background-color: #f7f7f7;
+            color: #3c3c3c;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: .55px;
+            line-height: 19px;
+            margin: 0;
+            padding: 10px 10px 10px 39px;
+            height: 15px;
+            width: 350px;
+        }
+      
+        .margin{
+        margin: 30px 10px;
+        display: flex;
+        font-size: 14px;
+        cursor: pointer;
+        }
+      
+        .borderLine{
+        border: 1px solid rgb(112, 109, 109);
+        height: 15px;
+        margin: 28px 0px;
+        }
+        
+        .userBox:hover{
+         color: #ec149a;
+        }
+        #hover:hover{
+         color: #f01dbb;
+        }
+        .fa-user-o{
+        margin: 0px 3px;
+        }
+        
+        .arrow{
+        font-weight: lighter;
+        width: 3px;
+        color: rgb(112, 109, 109);
+        margin: 0px 10px;
+        }
+        
+        .userBox {
+        display: flex;
+        }
+        .userLogin{
+        z-index: 9999999;
+        position: absolute;
+        width: 330px;
+        background-color: white;
+        display: none;
+        margin-top:30px;
+        right: 8rem;
+            box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+        
+        }
+        #fafa {
+         margin-right: 5px;
+        }
+        .userLogin > button{
+        display: block;
+        padding: 10px;
+        width: 310px;
+        margin: 10px 10px;
+        cursor: pointer;
+        font-size: 19px;
+        border-radius: 2px;
+        background-color:transparent;
+        border: 1px solid black;
+        font-size: 20px;
+        
+        }
+        
+        .userLogin p h3{
+            display: block;
+            padding: 10px;
+            width: 310px;
+            margin: 10px 10px;
+            cursor: pointer;
+            font-size: 19px;
+            border-radius: 2px;
+            background-color:transparent;
+            border: 1px solid black;
+            font-size: 20px;
+            
+            }
+        .userLogin a{
+        color: white;
+        }
+        .userLogin #a{
+        color: black;
+        }
+        .userLogin > button:nth-child(1){
+        background-color: #e917a3;
+        border: 1px solid #c2005b;
+        color: white;
+        }
+        .margin:hover > .userLogin {
+        display: block;
+        }
+        #cartItem {
+        margin: 26px 15px;
+        color: rgb(112, 109, 109);
+        width: 20px !important;
+        position: absolute;
+        cursor: pointer;
+        }
+        #cartOnNum{
+        position: relative;
+        margin: 35px 35px;
+        color: rgb(112, 109, 109);
+        font-size: 16px;
+        width: 18px;
+        height: 18px;
+        border: 1px solid white;
+        border-radius: 50px;
+        background: #f70;
+        color: white;
+        text-align: center;
+        padding-top: 2px;
+        cursor: pointer;
+        
+        }
+        #cartClick{
+        display: flex;
+        }
+        .cartAdd{
+        z-index: 9999999;
+        position: absolute;
+        width: 290px;
+        background-color: white;
+        display: none;
+        margin-top:60px;
+        right: 7rem;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+        }
+        .cartAdd p{
+        text-align: center;
+        margin: 5px 15px;
+        font-size: 20px;
+        }
+        .cartAdd a{
+        color: #fff;
+        }
+        
+        .cartAdd > button{
+        padding: 10px;
+        width: 260px;
+        margin: 10px 15px;
+        cursor: pointer;
+        font-size: 13px;
+        background: #df4723;
+        border: 1px solid #df4723;
+        
+        }
+         #cartClick:hover  .cartAdd {
+        display: block;
+        }
+        
+        
+    /* navbar ended */
+    
+     #categories{ 
+        padding-bottom: 5px;
+        top:5px;
+        position: sticky;
+        background-color:white;
+        border-bottom: 1px solid #d3cfcf;
+        display: flex;
+        z-index: 999999;
+    
+        }
+        
+        #categories .container{
+        width: 73%;
+        height: 50px;
+        display: flex;
+        margin-left: 155px;
+        }
+        
+        #catLinks {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        }
+        
+        #catLinks li {
+        margin:5px;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 15px;
+        
+        }
+        #catLinks span:hover{
+             color: rgb(226, 12, 137);
+        cursor: pointer;
+
+        }
+        #catLinks span{
+            font-size: 75%;
+            
+        }
+        #catLinks p {
+            margin:5px;
+            font-size: 20px;
+            padding-left: 10px;
+            margin-top: 14px;
+            }
+          
+        
+        #catLinks p {
+            font-size: 18px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: 300;
+        }
+        #catLinks p:hover{
+        color: rgb(226, 12, 137);
+        cursor: pointer;
+        
+        }
+     
+        #catLinks li .dropdown{
+        top: 2rem;
+        position: absolute;
+        width: 250px;
+        height: 500px;
+        background-color: whitesmoke;
+        
+        }
+
+     
+        li .dropdown{
+        margin-top: 10px;
+        display: none;
+        }
+        li .dropdown li{
+        display: block;
+        float: none;
+        cursor: pointer;
+        
+        }
+       
+        #catLinks li:hover .dropdown{
+        display: block;
+        font-size: 18px;
+        line-height: 21px;
+        }
+    #li:hover {
+    color: red;
+    cursor: pointer;
+    
+    }
+        #catLinks:hover .dropdown li{
+        margin: 10px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        }
+        
+        h4,#hover{
+            font-size: 80%;
+        }
+       #li{
+           font-size: 30%;
+       }
+body{
+    text-align: center;
+    color: rgb(18, 49, 145);
+    font-family:sans-serif;
+}
+#top a{
+    font-weight:bold;
+}
+
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.mainUl{
+    background-color: white;
+    width: 270px;
+    height: 357px;
+    margin-left: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+    border-radius: 2px;
+
+
+}
+.mainUl li a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.mainUl .li{
+    display: flex;
+    align-items: center;
+
+    color: black;
+    margin-left: 10px;
+    padding: 20px 0px;
+    list-style: none;
+    border-bottom: 1px solid rgb(240, 236, 236);
+    
+}
+.icn{
+    margin-right: 10px;
+}
+.pageRight-con{
+    background-color: white;
+    padding-top: 10px;
+    width: 1000px;
+    margin-left: 50px;
+    
+
+}
+.head{
+    height: 600px;
+}
+ h2{
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(240, 236, 236);
+}
+.itemCon{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 530px;
+    
+}
+.itemCon img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.wishCon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+.pCon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    margin-top: 30px;
+
+}
+.itemCon button{
+   margin-top: 70px;
+   width: 100%;
+   padding-top: 20px;
+   background-color: white;
+   border: none;
+   font-size: 14px;
+   font-weight: bold;
+   color: crimson;
+   border-top: 1px solid rgb(206, 200, 200);
+   
+
+    
+}
