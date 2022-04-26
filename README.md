@@ -1,2 +1,74 @@
-# Nykaa_Project
- Nykaa prides itself on offering a comprehensive selection of cosmetics, skincare, haircare, fragrances, bath and body, luxury and wellness products for women and men. Nykaa has offers well-curated, well-priced, 100% genuine and branded products, and it receives over 1 million orders per month from all over India
+# Nykaa Clone
+
+### Project Description
+
+_To start with the Project run the following command in terminal in "backend" folder_
+
+> > ⌘ **Run index.html in live server**
+
+> After that you are ready to run and explore our project.
+
+---
+
+### Team Members
+
+- **[Rasheed Ahemad](https://github.com/15VIKRANT)**
+- **[Jagamohan Panda](https://github.com/Jagamohan-81)**
+- **[Ritu Bankey](https://github.com/Ritu1011)**
+- **[Vishal Vivare](https://github.com/)**
+- **[Neelam Singh](https://github.com/Neelam2026)**
+
+---
+
+---
+
+## Tech Stack Used : -
+
+- #### Languages
+  - `HTML`
+  - `CSS`
+  - `JavaScript ES6`
+
+
+---
+
+### _Following are the Screenshots for the reference_
+
+- **Landing Page**
+  ![Landing Page](https://miro.medium.com/max/1400/1*Zuwc_r5ReiIC3-obVc3RWw.jpeg)
+
+- **Product Page**
+
+  ![Landing Page](https://miro.medium.com/max/1400/1*S3T0tSTZCrZlOhspFJZSWw.jpeg)
+
+
+- **Sign-Up & Sign-In Page**
+
+  ![Landing Page](https://miro.medium.com/max/1400/1*6x8JMbVZWqQyU9vub9Reyg.jpeg)
+
+
+- **Cart Page**
+
+  ![Landing Page](https://miro.medium.com/max/875/0*qy8KRtpzkNYaFZ1N.png)
+
+- **Payment Page**
+
+  ![Landing Page](https://miro.medium.com/max/875/0*ZP_AX1On72rY4QQN.png)
+
+---
+
+### About Project
+
+> We did this project within 4 days in our unit-4 construct week. We worked on backend parts with includes various types of libraries into it and we have also added database for our project so user and product details will be saved and can be used accordingly. We have also add some cool functionality in our home page, product page and cart page where you can filter the products according to your choice and user can Signup and Login to buy the products.
+
+---
+
+### Medium Link
+
+https://medium.com/@neelam_fw15_449/clone-of-beardo-in-including-frontend-backend-49dd8194bb78
+
+
+
+
+### Netlify Link
+https://nykaaproject.netlify.app/
