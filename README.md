@@ -12,11 +12,10 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 ### Team Members
 
-- **[Rasheed Ahemad](https://github.com/15VIKRANT)**
-- **[Jagamohan Panda](https://github.com/Jagamohan-81)**
-- **[Ritu Bankey](https://github.com/Ritu1011)**
-- **[Vishal Vivare](https://github.com/)**
-- **[Neelam Singh](https://github.com/Neelam2026)**
+- **[Rasheed](https://github.com/rasheed8123)**
+- **[Sachin ](https://github.com/)**
+- **[Pooja](https://github.com/)**
+- **[Neelam](https://github.com/Neelam2026)**
 
 ---
 
@@ -35,38 +34,34 @@ _To start with the Project run the following command in terminal in "backend" fo
 ### _Following are the Screenshots for the reference_
 
 - **Landing Page**
-  ![Landing Page](https://miro.medium.com/max/1400/1*Zuwc_r5ReiIC3-obVc3RWw.jpeg)
+  ![Landing Page](https://miro.medium.com/max/3840/1*sykT_cXVDMoH6kF_J4FjPg.png)
 
 - **Product Page**
 
-  ![Landing Page](https://miro.medium.com/max/1400/1*S3T0tSTZCrZlOhspFJZSWw.jpeg)
+  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*iRnuQBCoi_YdBdTTU9onYA.png)
 
 
 - **Sign-Up & Sign-In Page**
 
-  ![Landing Page](https://miro.medium.com/max/1400/1*6x8JMbVZWqQyU9vub9Reyg.jpeg)
+  ![Landing Page](https://cdn-images-1.medium.com/max/750/1*pb_S97teGW_93SgyU3QEwg.png)
+  ![Landing Page](https://cdn-images-1.medium.com/max/750/1*APKryfh4sxXAnzSUOSSK8Q.png)
 
 
-- **Cart Page**
+- **Get App Page**
 
-  ![Landing Page](https://miro.medium.com/max/875/0*qy8KRtpzkNYaFZ1N.png)
+  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*6Nb4-tgNNyrukLI2q4GTPQ.png)
 
-- **Payment Page**
+- **Help Page**
 
-  ![Landing Page](https://miro.medium.com/max/875/0*ZP_AX1On72rY4QQN.png)
+  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*mUewfwiq9TZ1HMZ5cHQAqQ.png)
 
 ---
 
 ### About Project
 
-> We did this project within 4 days in our unit-4 construct week. We worked on backend parts with includes various types of libraries into it and we have also added database for our project so user and product details will be saved and can be used accordingly. We have also add some cool functionality in our home page, product page and cart page where you can filter the products according to your choice and user can Signup and Login to buy the products.
+> We did this project within 5 days in our unit-2 construct week. We worked on frontend parts and we have used localstorage for our project so user and product details will be saved and can be used accordingly. We have also add some cool functionality in our home page, product page and cart page where you can filter the products according to your choice and user can Signup and Login to buy the products.
 
 ---
-
-### Medium Link
-
-https://medium.com/@neelam_fw15_449/clone-of-beardo-in-including-frontend-backend-49dd8194bb78
-
 
 
 
