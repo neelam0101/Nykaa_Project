@@ -13,8 +13,8 @@ _To start with the Project run the following command in terminal in "backend" fo
 ### Team Members
 
 - **[Rasheed](https://github.com/rasheed8123)**
-- **[Sachin ](https://github.com/)**
-- **[Pooja](https://github.com/)**
+- **[Sachin ](https://github.com/sachin-rock)**
+- **[Pooja](https://github.com/waghchaurepooja)**
 - **[Neelam](https://github.com/Neelam2026)**
 
 ---
