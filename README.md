@@ -67,3 +67,8 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 ### Netlify Link
 https://nykaaproject.netlify.app/
+
+
+### Medium Link
+
+https://medium.com/@abdulrasheed8123/dont-believe-in-just-yourself-believe-in-your-team-nykaa-clone-f175089c62f7
