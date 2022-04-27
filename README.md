@@ -38,22 +38,22 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 - **Product Page**
 
-  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*iRnuQBCoi_YdBdTTU9onYA.png)
-
+  ![Landing Page](https://miro.medium.com/max/2400/1*ELIjw1o7p02DQt4YphbXEA.png)
+  ![Landing Page](https://miro.medium.com/max/2400/1*iRnuQBCoi_YdBdTTU9onYA.png)
 
 - **Sign-Up & Sign-In Page**
 
-  ![Landing Page](https://cdn-images-1.medium.com/max/750/1*pb_S97teGW_93SgyU3QEwg.png)
-  ![Landing Page](https://cdn-images-1.medium.com/max/750/1*APKryfh4sxXAnzSUOSSK8Q.png)
+  ![Landing Page](https://miro.medium.com/max/2400/1*pb_S97teGW_93SgyU3QEwg.png)
+  ![Landing Page](https://miro.medium.com/max/2400/1*APKryfh4sxXAnzSUOSSK8Q.png)
 
 
 - **Get App Page**
 
-  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*6Nb4-tgNNyrukLI2q4GTPQ.png)
+  ![Landing Page](https://miro.medium.com/max/2400/1*6Nb4-tgNNyrukLI2q4GTPQ.png)
 
 - **Help Page**
 
-  ![Landing Page](https://cdn-images-1.medium.com/max/500/1*mUewfwiq9TZ1HMZ5cHQAqQ.png)
+  ![Landing Page](https://miro.medium.com/max/2400/1*mUewfwiq9TZ1HMZ5cHQAqQ.png)
 
 ---
 
