@@ -27,7 +27,7 @@ _To start with the Project run the following command in terminal in "backend" fo
 - #### Languages
   - `HTML`
   - `CSS`
-  - `JavaScript ES6`
+  - `JavaScript`
 
 
 ---
