@@ -67,7 +67,7 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 
 ### Netlify Link
-https://nykaaproject.netlify.app/
+https://nykaawebsite.netlify.app/
 
 
 ### Medium Link
